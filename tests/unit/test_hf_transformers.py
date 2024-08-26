@@ -20,7 +20,6 @@ logging.basicConfig(level=logging.INFO)
 
 
 class TestHFTransformers(TestCase):
-    # @unittest.skip("TODO: fix failing test")
     def test_transformers_conv_1(self):
         backend = TransformersConversational(
             model="meta-llama/Meta-Llama-3.1-8B-Instruct"
